@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/img/favicon.png" />
+    <title>Technical Agility Conference</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Akronim"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Amaranth"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Black+Ops+One"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Monoton"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Pacifico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.min.css" />
+
+    <style>
+      @media (min-width: 768px) and (max-width: 991px) {
+        .box-height-md {
+          color: red;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <nav
+        class="navbar navbar-dark navbar-expand-lg fixed-top"
+        style="
+          color: #ffffff;
+          width: 100%;
+          background-color: rgba(0, 0, 0, 0.74);
+        "
+      >
+        <div class="container">
+          <a class="navbar-brand" href="./" style="max-width: 200px" id="brand"
+            ><img src="assets/img/tacLogoLight2022.png" /></a
+          ><button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navcol-1"
+          >
+            <span class="sr-only">Toggle navigation</span
+            ><span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navcol-1">
+            <ul
+              class="nav navbar-nav ml-auto"
+              id="nav-id"
+              style="font-family: Amaranth, sans-serif"
+            >
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="../">Home</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="./register.html">Register</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" href="./schedule.html">Schedule</a>
+              </li>
+              <!-- <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link active"
+                  href="https://forms.gle/om9jQnS6k997heHr9"
+                  target="_blank"
+                  style="color: #ef741d"
+                  >Call For Nominations</a
+                >
+              </li> -->
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="./#topic">Topics</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="./#speaker">Speaker</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="./#sponsors">Sponsors</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="./#partner">Partner</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="./#team">Team</a>
+              </li>
+              <li class="dropdown">
+                <!-- <a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" style="font-size:18px;color:#fff;">Workshop</a> -->
+                <div class="dropdown-menu" role="menu" style="margin-top: 10px">
+                  <a
+                    class="dropdown-item"
+                    role="presentation"
+                    href="building_continuous_delivery_pipeline.html"
+                    >Building Continuous Delivery Pipeline</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    role="presentation"
+                    href="agile_product_management.html"
+                    >Agile Product Management</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link"
+                  href="../technical-agility-excellence-award.html"
+                  >TA Award</a
+                >
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="../contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="about"></div>
+
+    <!--Timeline Start  -->
+    <div class="features-blue" style="background: #292c33">
+      <div class="container">
+        <div class="intro">
+          <br /><br /><br /><br />
+          <h2 class="text-center">Schedule</h2>
+          <hr />
+          <p class="text-center"></p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="nav-justified">
+              <div class="nav nav-tabs text-center" id="nav-tab" role="tablist">
+                <a
+                  class="nav-item nav-link active"
+                  id="pop1-tab"
+                  data-toggle="tab"
+                  href="#pop1"
+                  role="tab"
+                  aria-controls="pop1"
+                  aria-selected="true"
+                  >Day 1</a
+                >
+                <a
+                  class="nav-item nav-link"
+                  id="pop2-tab"
+                  data-toggle="tab"
+                  href="#pop2"
+                  role="tab"
+                  aria-controls="pop2"
+                  aria-selected="false"
+                  >Day 2</a
+                >
+                <a
+                  class="nav-item nav-link"
+                  id="pop3-tab"
+                  data-toggle="tab"
+                  href="#pop3"
+                  role="tab"
+                  aria-controls="pop3"
+                  aria-selected="false"
+                  >Day 3</a
+                >
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <br />
+              <!-- day1 start-->
+              <div
+                class="tab-pane fade show active"
+                id="pop1"
+                role="tabpanel"
+                aria-labelledby="pop1-tab"
+              >
+                <div class="program_head_small">DAY 1 SEPTEMBER 15, 2022</div>
+                <div class="row">
+                  <div class="col-lg-1 col-md-2"></div>
+                  <div class="col-lg-10 col-md-8">
+                    <div class="program_head_small">
+                      Technical Agility Team Excellence Category
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 col-md-3">
+                    <div class="program_head_small">5:00 - 5:15 PM</div>
+                  </div>
+                  <div class="col-md-9 col-lg-10">
+                    <div class="program_head_full">Welcome Speech</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 col-md-3">
+                    <div class="program_head_small">5:20 - 6:20 PM</div>
+                  </div>
+                  <div class="col-lg-10 col-md-9">
+                    <div class="program_head_full">
+                      TEAM CODE CRAFTERS - Siemens Technology
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-end">
+                  <div class="col-11">
+                    <div class="program_head_full">
+                      <p style="color: #111; font-size: 20px">
+                        Journey of Code is Craft
+                      </p>
+                      <img
+                        src="assets/img/speaker/special/team2.png"
+                        style="
+                          border-radius: 50%;
+                          width: 70px;
+                          height: 100px;
+                          margin-top: -30px;
+                        "
+                      />
+                      <p
+                        style="color: #111; margin-bottom: 0px; font-size: 17px"
+                      >
+                        Mahendra Hotte, Ravikumar Suryanarayana, Rajeev B V,
+                        Abhinandan Bhadauria, S M. Sumukh
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 col-md-3">
+                    <div class="program_head_small">6:25 - 7:25 PM</div>
+                  </div>
+                  <div class="col-lg-10 col-md-9">
+                    <div class="program_head_full">
+                      TEAM SMART ENGINEERS - TATA Consultancy Services
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-end">
+                  <div class="col-11">
+                    <div class="program_head_full">
+                      <p style="color: #111; font-size: 20px">
+                        Celebrating 125th SPRINT Purchase Order System Journey
+                      </p>
+                      <img
+                        src="assets/img/speaker/special/team2.png"
+                        style="
+                          border-radius: 50%;
+                          width: 70px;
+                          height: 100px;
+                          margin-top: -30px;
+                        "
+                      />
+                      <p
+                        style="color: #111; margin-bottom: 0px; font-size: 17px"
+                      >
+                        Chidambar Joshi, Priya Jayachandran, Ashutosh
+                        Bhatawadekar, Sherin Thomas, Nilam Gujarati, Anindita
+                        Sahu, Sharath Ejanthkar, Manoop M, Nayanatara Chaugule,
+                        Priyanshu Rani
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 col-md-3">
+                    <div class="program_head_small">7:30 - 8:30 PM</div>
+                  </div>
+                  <div class="col-lg-10 col-md-9">
+                    <div class="program_head_full">
+                      TEAM SUN TZU AGILISTS - Toyota Connected
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-end">
+                  <div class="col-11">
+                    <div class="program_head_full">
+                      <p style="color: #111; font-size: 20px">
+                        SunTzu-Agilists: The nimble art of product success
+                      </p>
+                      <img
+                        src="assets/img/speaker/special/team2.png"
+                        style="
+                          border-radius: 50%;
+                          width: 70px;
+                          height: 100px;
+                          margin-top: -30px;
+                        "
+                      />
+                      <p
+                        style="color: #111; margin-bottom: 0px; font-size: 17px"
+                      >
+                        Ashok Ramadass, Naveen Krishnadass, Athresh Krishnappa,
+                        Srinivas V, Sudharshan Atreya, Savetha S, Rajan Sharma,
+                        Vigneshwaran RM, Sravan Pai, Jaai Naveen, Vinay P,
+                        Abuthair Hussain, Bharath Srinivasan
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- day1 end -->
+
+              <!-- day2 start-->
+              <div
+                class="tab-pane fade show"
+                id="pop2"
+                role="tabpanel"
+                aria-labelledby="pop2-tab"
+              >
+                <div class="program_head_small">DAY 2 SEPTEMBER 16, 2022</div>
+                <div class="row">
+                  <div class="col-lg-1 col-md-2"></div>
+                  <div class="col-lg-10 col-md-8">
+                    <div class="program_head_small">
+                      Program Agility Excellence Category
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 col-md-3">
+                    <div class="program_head_small">5:00 - 5:15 PM</div>
+                  </div>
+                  <div class="col-md-9 col-lg-10">
+                    <div class="program_head_full">Welcome Session</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 col-md-3">
+                    <div class="program_head_small">5:20 - 6:20 PM</div>
+                  </div>
+                  <div class="col-lg-10 col-md-9">
+                    <div class="program_head_full">
+                      TEAM MURAL CLINICAL VIEWER - GE Healthcare
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-end">
+                  <div class="col-11">
+                    <div class="program_head_full">
+                      <p style="color: #111; font-size: 20px">
+                        Wellspring Mural Clinical Viewer
+                      </p>
+                      <img
+                        src="assets/img/speaker/special/team2.png"
+                        style="
+                          border-radius: 50%;
+                          width: 70px;
+                          height: 100px;
+                          margin-top: -30px;
+                        "
+                      />
+                      <p
+                        style="color: #111; margin-bottom: 0px; font-size: 17px"
+                      >
+                        Ebin Poovathany, Dr. Isani Mishra, Seema Kulkarni,
+                        Kousalya Rengan, Amal G Maheswari, Raghavendra Putti,
+                        Rajesh B, Ritwika Ghose
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 col-md-3">
+                    <div class="program_head_small">6:25 - 7:25 PM</div>
+                  </div>
+                  <div class="col-lg-10 col-md-9">
+                    <div class="program_head_full">
+                      TEAM GLANZA - Toyota Connected
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-end">
+                  <div class="col-11">
+                    <div class="program_head_full">
+                      <p style="color: #111; font-size: 20px">
+                        Our Dream Program in Our Own Land
+                      </p>
+                      <img
+                        src="assets/img/speaker/special/team2.png"
+                        style="
+                          border-radius: 50%;
+                          width: 70px;
+                          height: 100px;
+                          margin-top: -30px;
+                        "
+                      />
+                      <p
+                        style="color: #111; margin-bottom: 0px; font-size: 17px"
+                      >
+                        Umamaheshwari Pemmireddy, Deepak Vemula, Abhishek R
+                        Shankar, Ramkumar Ganesh, Vivek Kumar, Vivekanandan
+                        Sakthivelu.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 col-md-3">
+                    <div class="program_head_small">7:30 - 8:30 PM</div>
+                  </div>
+                  <div class="col-lg-10 col-md-9">
+                    <div class="program_head_full">
+                      TEAM SYSTEMONE TOOLS - Siemens Technology Services Pvt.
+                      Ltd.
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-end">
+                  <div class="col-11">
+                    <div class="program_head_full">
+                      <p style="color: #111; font-size: 20px">
+                        Continually delivering cutting-edge features while
+                        controlling technical debt
+                      </p>
+                      <img
+                        src="assets/img/speaker/special/team2.png"
+                        style="
+                          border-radius: 50%;
+                          width: 70px;
+                          height: 100px;
+                          margin-top: -30px;
+                        "
+                      />
+                      <p
+                        style="color: #111; margin-bottom: 0px; font-size: 17px"
+                      >
+                        Aditya Kumar, Dhananjay Gune, Aditya Vardhan, Gauri
+                        Khedkar, Rahul Shendurnikar, Samir Tripathy, Swapnil
+                        Algamwar, Deepak Gupta, Irkal Minhajoddin, Ninad
+                        Deshmukh, and others.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- day2 end -->
+
+              <!-- day3 start-->
+              <div
+                class="tab-pane fade show"
+                id="pop3"
+                role="tabpanel"
+                aria-labelledby="pop3-tab"
+              >
+                <div class="program_head_small">DAY 3 SEPTEMBER 17, 2022</div>
+                <div class="row">
+                  <div class="col-lg-1 col-md-2"></div>
+                  <div class="col-lg-10 col-md-8">
+                    <div class="program_head_small">
+                      Enterprise Agility Excellence Category
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 col-md-3">
+                    <div class="program_head_small">5:00 - 5:15 PM</div>
+                  </div>
+                  <div class="col-md-9 col-lg-10">
+                    <div class="program_head_full">Welcome Session</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 col-md-3">
+                    <div class="program_head_small">5:20 - 6:20 PM</div>
+                  </div>
+                  <div class="col-lg-10 col-md-9">
+                    <div class="program_head_full">
+                      TEAM SYNERGIC MINDS - Siemens Technology
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-end">
+                  <div class="col-11">
+                    <div class="program_head_full">
+                      <p style="color: #111; font-size: 20px">Synergic Minds</p>
+                      <img
+                        src="assets/img/speaker/special/team2.png"
+                        style="
+                          border-radius: 50%;
+                          width: 70px;
+                          height: 100px;
+                          margin-top: -30px;
+                        "
+                      />
+                      <p
+                        style="color: #111; margin-bottom: 0px; font-size: 17px"
+                      >
+                        Prathima Nagaraj, Mansi Phaltane, Girija Seshadiri.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-2 col-md-3">
+                    <div class="program_head_small">6:30 - 7:30 PM</div>
+                  </div>
+                  <div class="col-lg-10 col-md-9">
+                    <div class="program_head_full">Panel Discussion</div>
+                  </div>
+                </div>
+                <div class="row justify-content-end">
+                  <div class="col-11">
+                    <div class="program_head_full py-4">
+                      <!-- <p style="color: #111; font-size: 20px">Synergic Minds</p> -->
+                      <img
+                        src="assets/img/question.png"
+                        style="
+                          border-radius: 50%;
+                          width: 70px;
+                          height: 70px;
+                          margin-top: -10px;
+                        "
+                      />
+                      <p
+                        style="color: #111; margin-bottom: 0px; font-size: 20px"
+                      >
+                        Lance Kind, Robert Frohman, Nivarti Jayaram, M S Banu
+                        Prakash Raje Urs, Ebin John, Vinay Krishna
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 col-md-3">
+                    <div class="program_head_small">7:35 - 8:15 PM</div>
+                  </div>
+                  <div class="col-lg-10 col-md-9">
+                    <div class="program_head_full">
+                      Winners Announcement + Closing Speech
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- day3 end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <!--Timeline End  -->
+    <div class="team-boxed" id="team">
+      <div class="container"></div>
+    </div>
+    <div class="footer-dark" id="contact">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 item contact text-center">
+              <a
+                href="tel:+91 63614 58940"
+                style="color: #fff; text-decoration: none"
+                ><i class="icon ion-ios-telephone"></i> +91 821 070 1149</a
+              >
+              <br />
+              <a
+                href="tel:+91 63614 58940"
+                style="color: #fff; text-decoration: none"
+                ><i class="icon ion-ios-telephone"></i> +91 761 964 4443</a
+              >
+            </div>
+            <div class="col item contact text-center">
+              <a
+                href="mailto:info@technicalagility.institute"
+                style="color: #fff; text-decoration: none"
+                ><i class="icon ion-ios-email"></i>
+                info@technicalagility.institute</a
+              >
+              <br />
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col-md-12 item social">
+              <a href="https://www.facebook.com/TechAgileConf"
+                ><i class="icon ion-social-facebook"></i></a
+              ><a href="https://twitter.com/TechAgilConf"
+                ><i class="icon ion-social-twitter"></i></a
+              ><a
+                href="https://www.linkedin.com/company/technical-agility-conference"
+                ><i class="icon ion-social-linkedin"></i></a
+              ><a href="#"><i class="icon ion-social-googleplus"></i></a>
+            </div>
+          </div>
+          <p class="copyright">Copyright ©2022 TAC2022, All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <!-- <script src="assets/js/script.min.js"></script> -->
+  </body>
+</html>
